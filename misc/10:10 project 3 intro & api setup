@@ -1,0 +1,45 @@
+10/10 project 3 intro & api setup
+
+
+
+Proj3, combining 3 things:
+	due 10/20 Friday at 10am (presentations due)
+
+	topic
+		webscraping
+		API
+		NLP
+
+	presentation
+	readme
+	ipynb notebooks
+		which contain two models
+		gather & prep data w/ PRAW 
+			(can be here or in a separate script)
+
+	models & prob stmt
+		what will measure success? 
+			(kms? mph?)
+			do I care about precision?
+			do I care about sensitivity?
+
+	data:
+		have to get ourselves
+			new API bc prev API got banned for rate limits
+		can't get super lots unless loop
+		1000 posts per subreddit = required
+
+
+
+
+	start pulling proj3 reddit posts asap
+
+
+
+note to self:
+
+secret	v85vo5HC61pn_rZQZS77GDtOlkntTQ
+
+PRAW
+personal use script
+MpNNGXPo1W7O7AeAMpjRuA

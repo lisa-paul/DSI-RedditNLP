@@ -1,0 +1,17 @@
+NOTES/10:10 504 NLP:			project 3
+NOTES/10:10 504 NLP:		for project 3, 1 doc == 1 reddit post
+NOTES/10:9 zoom 501 and 502 .txt:That helps me plan a little bit for project 3.
+NOTES/10:9 zoom 501 and 502 .txt:Whether I'm working on. Project one or project 2 or project 3 or I'm now in industry.
+NOTES/10:9 zoom 501 and 502 .txt:This way you will be good to go for project 3.
+NOTES/10:9 zoom 501 and 502 .txt:Anything problematic that could have ended up in your repository. For project 3, the responsibility is yours to make that good ignore.
+NOTES/10:10 project 3 intro & api setup:10/10 project 3 intro & api setup
+NOTES/10:9 breakfast hour and agenda:note that project 3 will be webscraping reddit
+NOTES/10:5 gridsearch and baselines meeting_saved_closed_caption.txt:And we will return. We will be back to talk about. FLASSION models a little bit later probably before your project 3, because this will become very important again.
+NOTES/10:11 505 nlp 2:tim hates word clouds DO NOT DO on project 3
+NOTES/10:11 505 nlp 2:lesson 505 is what we need for project 3
+Binary file NOTES/.git/index matches
+NOTES/10:13 agenda & breakfast hour - exit ticket fri 13:No need to update the BH repo, but you will want to fork project 3!
+NOTES/todo AGENDA mostly school:- open project 3 and at least paste in some helpful ideas
+NOTES/todo AGENDA mostly school:	 - e.g. cat a grep of "project 3",into a todo
+NOTES/todo AGENDA mostly school:	 - .ignore the ./misc/ folder within project 3
+projects/project-3/checklist-outline-README.md:For project 3, your goal is two-fold:
