@@ -1,0 +1,31 @@
+For project 3, where we have multiple data pulls and need to check for / remove duplicate reddit posts, does that have to be within the python code?
+3 replies
+Tim Book (he/him)
+  6 minutes ago
+Yes, it's data manipulation so it needs to be written in python. You weren't going to use Excel were you :eyes:
+:+1::skin-tone-2:
+1
+
+Lisa Paul (she/her) DSIR 9/11
+  5 minutes ago
+Haha, no, unix commands. It would be a one-liner, or just a few clear ones. I would save them to a script if that helped.
+Lisa Paul (she/her) DSIR 9/11
+  3 minutes ago
+I’ll keep it in Python!
+
+
+
+memo to self, it would involve comm (and cat >> bigfile.csv)
+but therefore probably awk or whatever to make sure I know where the separator is (multi-line posts) before using 'comm'
+
+
+
+
+https://unix.stackexchange.com/questions/487573/diff-between-two-csv-files-based-on-the-column
+
+
+
+
+includes the awk to get the columns?
+
+

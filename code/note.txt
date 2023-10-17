@@ -1,0 +1,5 @@
+number of subscribers is good info
+put that somewhere in readme or whatnot
+
+consider it during eda
+
