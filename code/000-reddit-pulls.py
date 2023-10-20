@@ -10,7 +10,8 @@ import time
 import praw
 
 
-
+# I chose not to care about keeping these credentials secret
+# This is a throwaway account & I will be changing the password.
 reddit = praw.Reddit(
     client_id='MpNNGXPo1W7O7AeAMpjRuA',
     client_secret='v85vo5HC61pn_rZQZS77GDtOlkntTQ',
@@ -19,27 +20,17 @@ reddit = praw.Reddit(
     password='klar-rox_FLEE1grog'
 )
 
-
-# In[3]:
-
-
-print(reddit.user.me())
+#print(reddit.user.me())
 
 
-
-#suggestion for subreddits:
-#r/Portland/ - vs - r/askPortland/
-#nadd vs criticalrole
-#currently using explainlikeimfive & nostupidquestions
 
 
 # Choose your subreddit
+#currently using explainlikeimfive & nostupidquestions
+
 sub1reddit = reddit.subreddit('explainlikeimfive')
 # Adjust the limit as needed -- Note that this will grab the 25 most recent posts
 sub1posts = sub1reddit.new(limit=1000)
-
-
-# In[6]:
 
 
 #for the next one
@@ -57,7 +48,7 @@ for post in sub1posts:
 df_sub1 = pd.DataFrame(data, columns = ['created_utc', 'title', 'self_text', 'subreddit'])
 
 
-df_sub1[ df_sub1['self_text'] != ''].shape
+#df_sub1[ df_sub1['self_text'] != ''].shape
 
 
 #drop full row if self_text is empty string
