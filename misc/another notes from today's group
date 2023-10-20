@@ -1,0 +1,31 @@
+another notes from today's group
+
+
+What's max features do?
+13:43:25
+Let's see. That's my number of features.
+13:43:32
+Build a vocabulary that only consider the top max features. Or by term frequency across the corpus.
+13:43:40
+Otherwise, all features are used. So maybe get rid of that.
+
+
+
+
+
+per rafi, remove English from the stopwords
+
+
+
+
+
+q abt fitting & transforming
+
+
+
+
+#memo to myself what transform what
+
+
+
+

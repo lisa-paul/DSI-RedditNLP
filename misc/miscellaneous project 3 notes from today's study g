@@ -1,0 +1,167 @@
+miscellaneous project 3 notes from today's study group
+
+
+
+
+So MinDF is the, minimum data frequency. So if award only appears in one post.
+
+
+It won't, so let's say I set them DF to be 2, then I'm looking for words that appear at least twice.
+
+
+Or in in 2 different posts. And so I can set that up to whatever like I might even play around with that but.
+
+
+That are probably cut out at least some of the 27,000 columns
+
+
+
+
+
+
+
+sean:
+
+My biggest concern too is as I'm building these models like just ending up with something that is just not at all predictive because my subreddits are related.
+13:07:48
+We're so related.
+13:07:50
+
+
+
+
+
+
+
+
+
+pickling error from Katie
+
+
+
+
+
+Why don't you guys take a look at this and. Tell me what I'm doing wrong because I'm lost.
+13:17:00
+So try to make my first model. I have my X. Can we only use it on one column?
+13:17:11
+Like the count vectorizer can only be used on one column at a time.
+13:17:16
+
+
+
+
+Our vectorizer has to run on a vector, not a data frame. So you can't create multiple columns into a vector, which is why you if you're trying to do it on the whole data frame, it wouldn't work.
+13:17:29
+Well, you can one thing that we've done in the past was use it as a.
+13:17:36
+Like you could do it in like a pipeline. And so you only vectorize one column or something like that or what we did in the one lab was you run the vectorizer on the one column and then you attend it back into the rest of the.
+13:17:49
+Where you concatenate it with with the rest of the data frame. So those are like to bring your other calls back in if you want to consider other
+
+
+
+
+13:17:58
+Gotcha. So. If, let's say I don't do that, then I either have to make the models off the title or the self text but can't do both unless I
+13:18:09-
+
+
+
+
+So Kirsten, what I did was concatenate them. So I just made a text one that included the title.
+13:18:13
+Huh.
+13:18:17
+And then a space and then the rest of the text and just call that I do text one and I had all of it.
+
+
+
+
+13:18:20
+Oh. Okay, that's smart. Okay, okay, because I'm like
+13:18:21
+Yeah.
+13:18:25
+As I said, depending on if you wanted. If you were doing your, you know, model. On title and self text.
+13:18:35
+You might not wanna do that, but if you're not doing that, I would do this and set and just combine them.
+13:18:38
+
+
+
+
+
+Okay, cool. I think I might keep them separate because I'm just curious to see how it would perform differently.
+13:18:44
+But thank you so much.
+
+
+
+
+13:18:45
+Oh, also I think you have subreddit in your in your X. You might just want that.
+13:18:49
+Pro.
+13:18:53
+Justin your Y.
+13:18:55
+I dropped it in my ex. I think that's what you saw. But thank you. No, no problem.
+13:18:56
+
+
+
+
+
+
+
+:22:46
+You're mentioning, like minimum and like maximum features. Was that in the, was that in the, in the grid search?
+13:22:57
+Yeah, so that's something, well, it would be for a vectorizer, something around with them the TEAH.
+13:23:03
+
+
+
+
+
+If you wanna share your screen, like with your different model or it just I think it depends on like what I was doing is I'm going back into the whatever it's called the documentation for each type of model and each type of vectorizer.
+13:24:02
+Yeah, so within here and a couple of them if you set them up, it's gonna do the exact same thing I don't think as much with this, but like the cool thing with the TFID.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kind of at the point where I'm deciding whether or not I want to combine different Text-based features.
+13:33:11
+As curious, I think we kind of talked about this earlier. If I wanted, I know that count vectorizers and I think the TIFF need.
+13:33:20
+A vector. If I wanted to run, let's say account vectorizer on each. Feature when I just need to instantiate like one Count vectorizer per feature and then just have those run on a pipe.
+13:33:37
+Has anyone tried that?
+
+
+13:33:39
+I merged my title and self text together and then ran it through the same account vectorizer.
+13:33:47
+
+
+Yeah, that came up too. I'm just wondering if there's a benefit or a drawback to doing that.
+
+
+
+
+
+
+

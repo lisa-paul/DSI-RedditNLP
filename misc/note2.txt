@@ -1,0 +1,8 @@
+#info
+#do this shuffling in real life, like projects, capstones etc #project 3
+#need to randomize data, and cv=5 doesn't do that in the gridsearch
+kf = KFold(n_splits=5, shuffle=True, random_state=2023)
+
+gs = GridSearchCV(lsvc,pgrid,cv=kf)
+
+
