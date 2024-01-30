@@ -1,3 +1,0 @@
-    "#project3 - idea: put reddit posts in the slidedeck to look at and laugh\n"
-
-

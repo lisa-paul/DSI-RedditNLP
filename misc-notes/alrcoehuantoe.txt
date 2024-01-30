@@ -1,4 +1,0 @@
-    "#do this shuffling in real life, like projects, capstones etc #project 3\n",
-    "#project3 syntax useful\n",
-    "#project3 syntax useful\n",
-    "#project3 - idea: put reddit posts in the slidedeck to look at and laugh\n",
